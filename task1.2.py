@@ -1,5 +1,6 @@
 def count_maintenance():
   fin = open('Street_Centrelines.csv')
+  fin.readline()
   d = {}
   l = []
   for line in fin:
